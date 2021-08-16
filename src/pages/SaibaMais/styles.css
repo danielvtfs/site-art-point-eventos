@@ -1,8 +1,7 @@
 .container {
-  height: calc(150vh - 100px);
+  height: calc(110vh - 100px);
   display: flex;
   align-items: center;
-  max-width: 80%;
   justify-content: center;
   flex-direction: column;
 }
