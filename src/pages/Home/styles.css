@@ -1,0 +1,23 @@
+.container-home {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('/src/img/backimg.jpeg');
+}
+
+.container-home h1 {
+  color: rgb(238, 95, 59);
+  text-shadow: 2px 2px black;
+}
+.container-home h2 {
+  color: rgb(238, 95, 59);
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+.container-home button {
+  margin-top: 20px;
+  width: 150px;
+}
