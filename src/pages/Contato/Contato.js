@@ -5,11 +5,13 @@ import './styles.css';
 function Contato() {
   return (
     <div className="container">
-      <p>E-mail: </p>
+      <div>
+        <p>E-mail: </p>
 
-      <p>Telefone: </p>
+        <p>Telefone: </p>
 
-      <p>WhatsApp: </p>
+        <p>WhatsApp: </p>
+      </div>
     </div>
   );
 }

@@ -9,7 +9,6 @@ import Contato from './pages/Contato/Contato';
 import Copa2014 from './pages/Copa2014/Copa2014';
 import CorridaDisney from './pages/CorridaDisney/CorridaDisney';
 import SaibaMais from './pages/SaibaMais/SaibaMais';
-import Videos from './pages/Videos/Videos';
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
         <Route path="/copa2014" component={Copa2014} />
         <Route path="/corridaDisney" component={CorridaDisney} />
         <Route path="/saibaMais" component={SaibaMais} />
-        <Route path="/videos" component={Videos} />
       </Switch>
       <Footer />
     </BrowserRouter>
