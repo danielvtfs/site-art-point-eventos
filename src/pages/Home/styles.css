@@ -15,9 +15,9 @@
   color: rgb(238, 95, 59);
   text-shadow: 2px 2px black;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .container-home button {
-  margin-top: 20px;
   width: 150px;
 }

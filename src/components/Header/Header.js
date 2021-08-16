@@ -30,31 +30,33 @@ const Example = (props) => {
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
+            {/* <NavItem>
               <NavLink className="navItem" href="/cursos">
                 Cursos
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle className="navItem" nav caret>
-                Serviços
+                Eventos
               </DropdownToggle>
               <DropdownMenu className="dropdown-menu" right>
-                <DropdownItem className="dropdown-item" href="/luthier">
-                  Luthier
+                <DropdownItem className="dropdown-item" href="/copa2014">
+                  Copa do Mundo 2014
                 </DropdownItem>
                 <DropdownItem className="dropdown-divider" divider />
-                <DropdownItem href="/contato">Contato</DropdownItem>
+                <DropdownItem href="/corridaDisney">
+                  Corrida Disney Channel
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <NavItem>
+            {/*             <NavItem>
               <NavLink className="navItem" href="/album">
                 Fotos
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
-              <NavLink className="navItem" href="/videos">
-                Vídeos
+              <NavLink className="navItem" href="/contato">
+                Contato
               </NavLink>
             </NavItem>
           </Nav>
