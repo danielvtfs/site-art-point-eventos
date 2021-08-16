@@ -18,6 +18,7 @@
   margin-bottom: 30px;
 }
 
-.container-home button {
-  width: 150px;
+.botao {
+  background: black !important;
+  background-color: black !important;
 }

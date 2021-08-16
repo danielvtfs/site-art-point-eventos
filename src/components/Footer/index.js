@@ -1,10 +1,6 @@
 import './styles.css';
 function Footer() {
-  return (
-    <footer>
-      Copyright © Art Point Eventos - Todos os direitos reservados®
-    </footer>
-  );
+  return <footer>Copyright© Art Point Eventos®</footer>;
 }
 
 export default Footer;

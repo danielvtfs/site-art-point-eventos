@@ -5,7 +5,7 @@ function Home() {
     <div className="container-home">
       <h1>Aqui você encontra</h1>
       <h2>Sonorização, Iluminação e Cenografia</h2>
-      <Button href="/saibaMais" variant="secondary">
+      <Button className="botao" href="/saibaMais">
         Saiba mais
       </Button>
     </div>
