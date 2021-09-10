@@ -1,6 +1,5 @@
 import './contato.css';
-
-//import faleConosco from '../../img/fale-conosco-.png';
+import Whatsapp from '../../components/WhatsApp/Whatsapp';
 
 function Contato() {
   return (
@@ -10,6 +9,7 @@ function Contato() {
 
         <p>WhatsApp: (21)97044-8540 / (21)96481-6512</p>
       </div>
+      <Whatsapp />
     </div>
   );
 }

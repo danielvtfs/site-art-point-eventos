@@ -10,6 +10,7 @@ import Copa2014 from './pages/Copa2014/Copa2014';
 import CorridaDisney from './pages/CorridaDisney/CorridaDisney';
 import SaibaMais from './pages/SaibaMais/SaibaMais';
 import Eventos from './pages/Eventos/Eventos';
+import Transpetro from './pages/Transpetro/Transpetro';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/eventos" component={Eventos} />
         <Route path="/corridaDisney" component={CorridaDisney} />
         <Route path="/saibaMais" component={SaibaMais} />
+        <Route path="/transpetro" component={Transpetro} />
       </Switch>
       <Footer />
     </BrowserRouter>
