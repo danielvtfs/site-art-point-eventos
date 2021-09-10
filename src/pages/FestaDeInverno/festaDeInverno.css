@@ -1,0 +1,8 @@
+.container {
+  height: calc(100vh - 100px);
+  max-width: 600px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(41, 36, 36) !important;
+}

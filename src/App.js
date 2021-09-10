@@ -11,6 +11,7 @@ import CorridaDisney from './pages/CorridaDisney/CorridaDisney';
 import SaibaMais from './pages/SaibaMais/SaibaMais';
 import Eventos from './pages/Eventos/Eventos';
 import Transpetro from './pages/Transpetro/Transpetro';
+import FestaDeInverno from './pages/FestaDeInverno/FestaDeInverno';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/corridaDisney" component={CorridaDisney} />
         <Route path="/saibaMais" component={SaibaMais} />
         <Route path="/transpetro" component={Transpetro} />
+        <Route path="/festaDeInverno" component={FestaDeInverno} />
       </Switch>
       <Footer />
     </BrowserRouter>

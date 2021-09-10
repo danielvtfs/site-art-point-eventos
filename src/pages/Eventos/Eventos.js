@@ -3,6 +3,7 @@ import { Button } from 'reactstrap';
 import img1 from '../../img/Copa do Mundo 2014/img3.jpg';
 import img2 from '../../img/Corrida Disney Channel/img6.jpg';
 import img3 from '../../img/Transpetro/img1.jpg';
+import img4 from '../../img/Festa de Inverno/img1.jpg';
 import Whatsapp from '../../components/WhatsApp/Whatsapp';
 
 import {
@@ -101,9 +102,9 @@ const Eventos = (props) => {
       </CardGroup>
       <CardGroup className="group-card">
         <Card className="card">
-          <CardImg top width="100%" src={img1} alt="Card image cap" />
+          <CardImg top width="100%" src={img4} alt="Card image cap" />
           <CardBody>
-            <CardTitle tag="h5">Copa do Mundo 2014</CardTitle>
+            <CardTitle tag="h5">Festa de Inverno</CardTitle>
             <CardSubtitle tag="h6" className="mb-2 text-muted">
               Card subtitle
             </CardSubtitle>
@@ -112,7 +113,14 @@ const Eventos = (props) => {
               lead-in to additional content. This content is a little bit
               longer.
             </CardText>
-            {/* <Button>Button</Button> */}
+            <Button
+              href="/festaDeInverno"
+              className="button"
+              outline
+              color="primary"
+            >
+              Acessar
+            </Button>{' '}
           </CardBody>
         </Card>
         <Card className="card">
