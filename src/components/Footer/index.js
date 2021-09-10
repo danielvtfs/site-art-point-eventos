@@ -1,4 +1,4 @@
-import './styles.css';
+import './footer.css';
 function Footer() {
   return <footer>Copyright© Art Point Eventos®</footer>;
 }

@@ -11,9 +11,11 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  NavbarText,
 } from 'reactstrap';
+
 import logo from '../../img/logo.png';
-import './styles.css';
+import './header.css';
 
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,44 +24,22 @@ const Example = (props) => {
 
   return (
     <div>
-      <Navbar className="navbar" light expand="md">
-        <a href="/">
-          <img className="imgLogo" src={logo} alt="Logo" />
-        </a>
-
+      <Navbar color="dark" light expand="md">
+        <NavbarBrand href="/">
+          <img src={logo} className="imgLogo" alt="" />
+        </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            {/* <NavItem>
-              <NavLink className="navItem" href="/cursos">
-                Cursos
-              </NavLink>
-            </NavItem> */}
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle className="navItem" nav caret>
-                Eventos
-              </DropdownToggle>
-              <DropdownMenu className="dropdown-menu" right>
-                <DropdownItem className="dropdown-item" href="/copa2014">
-                  Copa do Mundo 2014
-                </DropdownItem>
-                <DropdownItem className="dropdown-divider" divider />
-                <DropdownItem href="/corridaDisney">
-                  Corrida Disney Channel
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            {/*             <NavItem>
-              <NavLink className="navItem" href="/album">
-                Fotos
-              </NavLink>
-            </NavItem> */}
-            <NavItem>
-              <NavLink className="navItem" href="/contato">
-                Contato
-              </NavLink>
-            </NavItem>
-          </Nav>
+          <div className="teste">
+            <Nav className="mr-auto itens" navbar>
+              <NavItem>
+                <NavLink href="/eventos">Eventos</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/contato">Contato</NavLink>
+              </NavItem>
+            </Nav>
+          </div>
         </Collapse>
       </Navbar>
     </div>

@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
-import './styles.css';
+import './home.css';
+import Whatsapp from '../../components/WhatsApp/Whatsapp';
 function Home() {
   return (
     <div className="container-home">
@@ -8,6 +9,7 @@ function Home() {
       <Button className="botao" href="/saibaMais">
         Saiba mais
       </Button>
+      <Whatsapp />
     </div>
   );
 }

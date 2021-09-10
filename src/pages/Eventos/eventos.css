@@ -1,0 +1,23 @@
+.container-eventos {
+}
+
+.card-text {
+  color: black !important;
+  margin-bottom: 50px;
+}
+
+.group-card {
+  margin: 10px;
+}
+
+.card {
+  margin: 5px !important;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.button {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}

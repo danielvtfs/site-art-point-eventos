@@ -1,4 +1,4 @@
-import './styles.css';
+import './contato.css';
 
 //import faleConosco from '../../img/fale-conosco-.png';
 
@@ -6,11 +6,9 @@ function Contato() {
   return (
     <div className="container">
       <div>
-        <p>E-mail: </p>
+        <p>E-mail: artpointeventos@gmail.com</p>
 
-        <p>Telefone: </p>
-
-        <p>WhatsApp: </p>
+        <p>WhatsApp: (21)97044-8540 / (21)96481-6512</p>
       </div>
     </div>
   );

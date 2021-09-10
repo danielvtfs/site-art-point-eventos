@@ -1,4 +1,5 @@
-import './styles.css';
+import './saibaMais.css';
+import Whatsapp from '../../components/WhatsApp/Whatsapp';
 function SaibaMais() {
   return (
     <div className="container">
@@ -12,6 +13,7 @@ function SaibaMais() {
           Truss e muito mais...
         </p>
       </div>
+      <Whatsapp />
     </div>
   );
 }

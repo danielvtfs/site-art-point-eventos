@@ -5,6 +5,7 @@ import img3 from '../../img/Corrida Disney Channel/img3.jpg';
 import img4 from '../../img/Corrida Disney Channel/img4.jpg';
 import img5 from '../../img/Corrida Disney Channel/img5.jpg';
 import img6 from '../../img/Corrida Disney Channel/img6.jpg';
+import './corridaDisney.css';
 
 function CorridaDisney() {
   return (
