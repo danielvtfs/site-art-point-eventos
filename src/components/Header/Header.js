@@ -23,26 +23,28 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Navbar color="dark" light expand="md">
+
+      <Navbar  color="dark" light expand="md">
+        <div className="div-container">
         <NavbarBrand href="/">
           <img src={logo} className="imgLogo" alt="" />
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <div className="teste">
-            <Nav className="mr-auto itens" navbar>
+            <div className=" itens">
+            <Nav  navbar>
               <NavItem>
-                <NavLink href="/eventos">Eventos</NavLink>
+                <NavLink href="/eventos">EVENTOS</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/contato">Contato</NavLink>
+                <NavLink href="/contato">CONTATO</NavLink>
               </NavItem>
             </Nav>
-          </div>
+            </div>
         </Collapse>
+        </div>
       </Navbar>
-    </div>
+
   );
 };
 

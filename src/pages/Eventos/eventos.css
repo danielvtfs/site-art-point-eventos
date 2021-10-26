@@ -1,4 +1,11 @@
 .container-eventos {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245, 239, 239);
 }
 
 .card-text {
@@ -8,11 +15,13 @@
 
 .group-card {
   margin: 10px;
+
 }
 
 .card {
-  margin: 5px !important;
+  margin: 15px !important;
   box-shadow: 1px 1px 1px #999;
+  max-width: 500px;
 }
 
 .button {
@@ -23,5 +32,6 @@
 }
 
 .img {
-  max-height: 280px;
+  max-height: 300px;
+  max-width: 500px;
 }
